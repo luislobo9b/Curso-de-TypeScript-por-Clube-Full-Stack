@@ -1,0 +1,2 @@
+comando para criar o arquivo tsconfig.json (usado na raiz do projeto):
+npm run tsc -- --init

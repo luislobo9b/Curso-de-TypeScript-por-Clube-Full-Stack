@@ -1,2 +1,5 @@
 comando para compilar:
 npm run tsc "01. compilando arquivo .ts para .js/sum.js"
+
+para monitorar o arquivo e atualizá-lo automaticamente use a flag -w
+npm run tsc "01. compilando arquivo .ts para .js/sum.js" -- -w

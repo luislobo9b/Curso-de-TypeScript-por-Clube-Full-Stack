@@ -1,0 +1,2 @@
+comando para compilar:
+npm run tsc "01. compilando arquivo .ts para .js/sum.js"

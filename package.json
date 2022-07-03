@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tsc": "tsc"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/luislobo9b/Curso-de-TypeScript-por-Clube-Full-Stack/issues"
   },
-  "homepage": "https://github.com/luislobo9b/Curso-de-TypeScript-por-Clube-Full-Stack#readme"
+  "homepage": "https://github.com/luislobo9b/Curso-de-TypeScript-por-Clube-Full-Stack#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }

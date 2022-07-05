@@ -1,6 +1,9 @@
 console.log('aula 05');
 
 let names: string[] = ['Luis', 'Fernando'];
+// uma forma alternativa de escrita é:
+// let names:Array<string> = ['Luis', 'Fernando'];
+
 let namesAndAges: (string | number)[] = ['Luis', 29, 'Fernando', 29];
 
 // se você colocar object ele também vai aceitar array

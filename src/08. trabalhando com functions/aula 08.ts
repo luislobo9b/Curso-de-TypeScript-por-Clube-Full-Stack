@@ -1,6 +1,6 @@
 console.log('aula 08');
 
-function person_(name: string, age: number): string{
+function person_(name: string, age: number|string): string{
     let str = `Meu nome é ${name} e minha idade é ${age} anos`;
     console.log(str);
     return str;

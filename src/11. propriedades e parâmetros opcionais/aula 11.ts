@@ -1,6 +1,16 @@
 console.log('aula 11');
-
 // para adicionar uma propriedade e parâmetro como opcionais basta adicionar interrogação ao final
+
+// com funções
+// Um parâmetro obrigatório não pode ser colocado após um parâmetro opcional
+function person4(name: string, age: number, isAdmin?: true, color?: string): number{
+    console.log(name, age, isAdmin, color);
+    return age;
+};
+
+person4('Luis', 29, true, 'blue');
+
+
 
 // com objeto
 let person5: {
@@ -16,9 +26,4 @@ person5 = {
     isAdmin: true
 };
 
-// com funções
-// Um parâmetro obrigatório não pode ser colocado após um parâmetro opcional
-function person4(name: string, age: number, isAdmin?: true, color?: string): number{
-    console.log(name, age, isAdmin, color);
-    return age;
-};
+console.log(person5);
